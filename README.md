@@ -1,4 +1,4 @@
-# Create-DICOM
+# Create_DICOM
 This code is for creating Dissolved-phase xenon DICOM images. The code 
 1. reads in a numpy RGB array (NxNxNx3)
 2. adds a colorbar to it
