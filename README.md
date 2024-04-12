@@ -1,4 +1,5 @@
 # Create_DICOM
+Clone and open this github folder on your PC. Run Create_DICOM_from_Numpy.py.
 This code is for creating Dissolved-phase xenon DICOM images. The code 
 1. reads in a numpy RGB array (NxNxNx3)
 2. adds a colorbar to it
