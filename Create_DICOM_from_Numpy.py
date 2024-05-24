@@ -165,7 +165,7 @@ def create_dicoms_for_DP(data, colorbar, description,output_dir=None):
     for i in range(0, rgb_image.shape[2]):
         rgb_image[:,:,i,] = np.concatenate((data[:,:,i,:], colorbar_matrix), axis=1)
 
-    ds = pydicom.dcmread('Header_info_Edited.dcm')
+    ds = pydicom.dcmread('Edited_Dicom_Header.dcm')
     if output_dir is None:
         output_dir = colorbar
         ds.PatientName="XXXX"
